@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Arjan den Os">
+    <meta name="description" content="Welkom op mijn portfolio website. Ik ben een junior webdeveloper/student uit Hilversum.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/webdev-icon2.png">
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"/>
+      <link rel="stylesheet" href="style.css">
+      <script src="script.js" defer></script>
+    <title>Arjan den Os - Junior webdeveloper</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="#" class="nav__home">
+          <img src="img/webdev-logo.png" alt="weblogo" class="nav__logo" id="logo"/>
+          <h2 class="nav__header">Portfolio</h2>
+        </a>
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Projecten</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Over mij</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Contact info</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn" href="mailto:arjandenos@gmail.com">Stuur e-mail</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <h1>
+          Arjan den Os &nbsp;
+          <span class="highlight">Junior-</span>
+          <span class="highlight">webdeveloper</span>
+        </h1>
+        <h4>Welkom op mijn portfolio</h4>
+        <button class="btn--text btn--scroll-to">Verder kijken &DownArrow;</button>
+        <div class="composition header__img">
+          <img alt="photo 1" class="composition__photo composition__photo--p1" src="img/zelf1.jpg">
+          <img alt="photo 3" class="composition__photo composition__photo--p3" src="img/zelf3.jpg">
+          <img alt="photo 2" class="composition__photo composition__photo--p2" src="img/zelf2.jpg">
+        </div>
+      </div>
+    </header>
+
+    <section class="section section--hidden" id="section--1">
+      <div class="section__title section__title--projects">
+        <h2 class="section__description">Projecten</h2>
+        <h3 class="section__header">3 projecten om mijn huidige (javascript) skills te laten zien.
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide slide--1">
+          <div class="project">
+            <h5 class="project__header">1. Een kalender/agenda app</h5>
+            <div class="project__overview">
+              <img src="img/calendar-day.png" alt="calendar day overview">
+              <p class="project__text">Een kalender/agenda app met een jaar, maand en dag overzicht  voor 2022. <br> Sorteert items op start-tijd. <br>Items worden in local storage opgeslagen.</p>
+            </div>
+            <div class="project__link--div">
+              <a href="projects/calendar/index.html" target="_blank" class="btn project__link project__link--button">Bekijk kalender</a>
+              <a href="https://github.com/TzadO/Calendar-Agenda" target="_blank" class="btn project__link project__link--button">Bekijk code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide slide--2">
+          <div class="project">
+            <h5 class="project__header">2. Een simpele bank app</h5>
+            <div class="project__overview">
+              <img src="img/bankapp.png" alt="bankapp">
+              <p class="project__text">Een simpele bankapp met een login.<br>Accounts in nl/us locale display.<br> Geld overschrijven tussen accounts.<br>Sorteerfunctie voor display.<br>Logout timer.</p>
+            </div>
+            <div class="project__link--div">
+              <a href="projects/bankapp/index.html" target="_blank" class="btn project__link project__link--button">Bekijk bankapp</a>
+              <a href="https://github.com/TzadO/bankapp" target="_blank" class="btn project__link project__link--button">Bekijk code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide slide--3">
+          <div class="project">
+            <h5 class="project__header">3. Een workout tracker/map</h5>
+            <div class="project__overview">
+              <img src="img/workoutmap.png" alt="workoutmap">
+              <p class="project__text">Een workout tracker/map met de Leaflet library en Openstreetmap.<br>Werkt met 2 classes, 1 voor fietsen en 1 voor rennen. <br>Items worden in local storage opgeslagen. </p>
+            </div>
+            <div class="project__link--div">
+              <a href="projects/workoutmap/index.html" target="_blank" class="btn project__link project__link--button">Bekijk map</a>
+              <a href="https://github.com/TzadO/workoutmap" target="_blank" class="btn project__link project__link--button">Bekijk code</a>
+            </div>
+          </div>
+        </div>
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--hidden" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Over mij</h2>
+        <h3 class="section__header">Hallo, ik ben Arjan den Os.</h3>
+        <p class="section__information">Iets meer dan 6 maanden geleden, na een paar levensveranderende ervaringen, heb ik besloten om "websites te gaan maken".&nbsp;.&nbsp;. &nbsp; zonder nog enige kennis of achtergrond in CS of development. Eerst via <a href="https://www.freecodecamp.org/" target="_blank" class="section__information-link">FreeCodeCamp</a> en <a href="https://www.theodinproject.com/" target="_blank" class="section__information-link">The Odin Project</a> het begin van juiste HTML en de basis van CSS geleerd. Vervolgens tutorials over Figma en design, kleur-theoriën en contrast-ratios, alignment en visual hiarchy. Maar dat was niet waar mijn interesse lag. Na een CS cursus van Harvard prof. David J. Malan ging er voor mij een wereld open en heb ik geleerd en besloten mij volledig op (front-end) development te richten. Via een labyrint aan tutorial-hell ben ik daarna uiteindelijk uitgekomen bij <a href="https://www.udemy.com/" target="_blank" class="section__information-link">Udemy</a>. Daar ben ik begonnen met een 2-delige cursus DOM-manipulatie. Vervolgens een advanced CSS/SASS cursus. En daarna een complete JS cursus. Elke dag voel ik mij steeds gemakklijker in 't denken in de web 3-eenheid. Na deze reis van iets meer dan 6 maanden is dit het resultaat: 3 projecten en mijn eerste portfolio ter demonstratie van mijn huidige progressie. Mijn tools op dit moment:
+        </p>
+      </div>
+
+      <div class="tools">
+        <div class="tools__tab-container">
+          <button class=" tools__tab tools__tab--1 tools__tab--active" data-tab="1">JavaScript</button>
+          <button class=" tools__tab tools__tab--2" data-tab="2">CSS</button>
+          <button class=" tools__tab tools__tab--3" data-tab="3">HTML</button>
+        </div>
+        <div class="tools__content tools__content--1 tools__content--active">
+          <div class="tools__icon tools__icon--1">JS</div>
+          <p>
+            In januari 2022 een uitgebreide cursus JS aangeschaft. Eerst de fundamenten van JS en DOM. En dan werken met arrays en strings geleerd. Vervolgens functies, objecten en werken met datums, timers en events. API's, async en paradigma's zijn allemaal uitgelegd. Evenals hoe JS werkt. Te veel om op te noemen. En alles in ES6 natuurlijk!
+          </p>
+        </div>
+
+        <div class="tools__content tools__content--2">
+          <div class="tools__icon tools__icon--2">CSS</div>
+          <p>
+            Via <a href="https://www.udemy.com/" target="_blank" class="section__information-link">Udemy</a> een cursus advanced CSS/SASS geleerd met flexbox en grid als basis, maar ook 'oudere' technieken zijn uitgelegd. Proberen een fully responsive layout te maken met zo min mogelijk media query's was een eye-opener, maar soms nog steeds een moeilijke puzzel. Het werken met SASS en het compilen met npm was een was een goede introductie tot hoe professionals werken.
+          </p>
+        </div>
+        <div class="tools__content tools__content--3">
+          <div class="tools__icon tools__icon--3">HTML</div>
+          <p>
+            Via <a href="https://www.freecodecamp.org/" target="_blank" class="section__information-link">FreeCodeCamp</a> en <a href="https://www.theodinproject.com/" target="_blank" class="section__information-link">The Odin Project</a> de basis van HTML geleerd. Via <a href="https://www.a11yproject.com/" target="_blank" class="section__information-link">a11yproject</a> het belang van semantisch correcte HTML geleerd en hoe de accessibility tree node werkt.
+          </p>
+        </div>
+      </div>
+
+      <div class="section__title">
+        <h3 class="section__header">Wat nu?</h3>
+        <p class="section__information">In het algemeen probeer ik mij verder comfortabel te maken met het gebruik van SASS, NPM en Git.<br>Ik breid mijn kennis van CSS en JS elke dag een beetje uit en wil gaan werken in modules.<br>Ik ben vers begonnen aan een cursus voor het framework React.<br>Ook heb ik een cursus Node.JS klaar staan om meer begrip en inzicht te krijgen in de back-end en zelf projecten te gaan oefenen op mijn Raspberry Pi. Maar de focus voor nu ligt volledig op front-end.<br><b>Het liefst zou ik mij verder ontwikkelen in een gestructureerde omgeving met ervaren developers.</b></p>
+      </div> 
+    </section>
+
+    <section class="section section--contact" id="section--3">
+      <div class="section__title">
+        <h3 class="section__header">Info</h3>
+        <p class="section__information">Arjan den Os<br>arjandenos@gmail.com<br>06-16001123</p>
+      </div>
+        <div class="contact">
+          <a href="mailto:arjandenos@gmail.com" class="contact__link btn">Stuur e-mail!</a>
+          <a href="arjandenos_cv.pdf" target="_blank" class="contact__link btn">Bekijk CV</a>
+          <a href="https://www.linkedin.com/in/arjan-den-os-7b7953118/" target="_blank" class="contact__link btn">LinkedIn</a>
+          <a href="https://github.com/TzadO" target="_blank" class="contact__link btn">GitHub</a>
+          <a href="https://wa.me/31616001123" target="_blank" class="contact__link btn">WhatsApp</a>
+        </div>
+    </section>
+  </body>
+</html>
+
+
+   
