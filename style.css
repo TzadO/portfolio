@@ -628,6 +628,7 @@ h4 {
 }
 
 .contact__link {
+  width: 15rem;
   text-decoration: none;
   color: #222;
   font-size: 1.5rem;
