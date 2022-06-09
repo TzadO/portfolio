@@ -340,6 +340,7 @@ h4 {
 
 .composition {
   position: relative;
+  top: -10%;
 }
 
 .composition__photo {
@@ -369,8 +370,8 @@ h4 {
 }
 
 .composition__photo--p3 {
-  left: 20%;
-  top: 17rem;
+  left: 10%;
+  top: 23rem;
   animation-name: moveInBottom;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
