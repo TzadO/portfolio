@@ -445,12 +445,7 @@ h4 {
   transition: transform .8s cubic-bezier(0.68, -0.6, 0.32, 1);
 }
 
-@media only screen and (max-width: 525px) {
-  .slider, .slide {
-    height: 50rem;
-    overflow: auto;
-  }
-}
+
 
 .slider__btn {
   position: absolute;
