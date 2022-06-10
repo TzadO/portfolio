@@ -130,7 +130,7 @@ body {
   margin-bottom: 3rem;
 }
 
-.section__information-link:link, 
+.section__information-link:link,
 .section__information-link:visited {
   text-decoration: none;
   color: inherit;
