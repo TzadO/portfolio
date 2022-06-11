@@ -207,7 +207,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 4rem;
+  height: fit-content;
   width: 100%;
   padding: 0.5rem 2rem;
   z-index: 100;
@@ -380,7 +380,7 @@ h4 {
 
 .composition__photo--p3 {
   left: 10%;
-  top: 23rem;
+  top: 20rem;
   animation-name: moveInBottom;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
@@ -388,13 +388,13 @@ h4 {
 
 @media only screen and (max-width: 1350px) {
   .composition__photo--p3 {
-    top: 20rem;
+    top: 17rem;
   }
 }
 
 @media only screen and (max-width: 1050px) {
   .composition__photo--p3 {
-    top: 17rem;
+    top: 14rem;
   }
   .composition {
     top: 0;
@@ -403,7 +403,7 @@ h4 {
 
 @media only screen and (max-width: 800px) {
   .composition__photo--p3 {
-    top: 14rem;
+    top: 11rem;
   }
 }
 
@@ -477,11 +477,9 @@ h4 {
 }
 
 .dots {
-  position: absolute;
-  bottom: 1%;
-  left: 50%;
-  transform: translateX(-50%);
   display: flex;
+  width: fit-content;
+  margin: 0 auto;  
 }
 
 .dots__dot {
