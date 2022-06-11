@@ -102,6 +102,10 @@ body {
   transition: opacity 2s;
 }
 
+.section--projects {
+  height: 100vh;
+}
+
 .section--hidden {
   opacity: 0;
 }
@@ -275,12 +279,7 @@ p {
 
 @media only screen and (max-width: 600px ) {
   .nav__item {
-    margin-left: 1rem;
-  }
-}
-@media only screen and (max-width: 450px) {
-  .nav {
-    height: fit-content;
+    margin-left:.5rem;
   }
 }
 
@@ -451,19 +450,11 @@ h4 {
   position: absolute;
   top: 50%;
   z-index: 10;
-  border: none;
-  background: rgba(255, 255, 255, 0.7);
-  font-family: inherit;
-  color: #333;
   border-radius: 50%;
   height: 3.5rem;
   width: 3.5rem;
-  font-size: 2.75rem;
   cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0 0 50px 2px rgba(0, 0, 0, .1);
+  box-shadow: 0 0 30px 3px rgba(0, 0, 0, .3);
 }
 
 .slider__btn--left {

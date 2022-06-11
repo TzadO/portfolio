@@ -1,23 +1,23 @@
 "use strict";
 
 const slides = document.querySelectorAll(".slide");
-let currSlide = 0;
+let currentSlide = 0;
 
 function nextSlide() {
-  currSlide === slides.length - 1 ? (currSlide = 0) : currSlide++;
+  currentSlide === slides.length - 1 ? (currentSlide = 0) : currentSlide++;
   goToSlide();
-  activateDot(currSlide);
+  activateDot(currentSlide);
 }
 
 function prevSlide() {
-  currSlide === 0 ? (currSlide = slides.length - 1) : currSlide--;
+  currentSlide === 0 ? (currentSlide = slides.length - 1) : currentSlide--;
   goToSlide();
-  activateDot(currSlide);
+  activateDot(currentSlide);
 }
 
 function goToSlide() {
   slides.forEach((slide, index) => (slide.style.transform = 
-    `translateX(${100 * (index - currSlide)}%)`));
+    `translateX(${100 * (index - currentSlide)}%)`));
 }
 
 function createDots() {
