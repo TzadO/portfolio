@@ -75,8 +75,8 @@ function addClickListeners() {
 
   document.querySelector(".dots").addEventListener("click", function (event) {
     if (event.target.classList.contains("dots__dot")) {
-      currSlide = Number(event.target.dataset.slide);
-      activateDot(currSlide);
+      currentSlide = Number(event.target.dataset.slide);
+      activateDot(currentSlide);
       goToSlide();
     }
   });
@@ -133,4 +133,4 @@ addClickListeners();
 addKeyListeners();
 goToSlide();
 createDots();
-activateDot(currSlide);
+activateDot(currentSlide);
