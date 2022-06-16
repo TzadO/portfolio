@@ -23,7 +23,7 @@ function goToSlide() {
 function createDots() {
   slides.forEach(function (_, index) {
     document.querySelector(".dots").insertAdjacentHTML("beforeend",
-      `<button class="dots__dot" data-slide="${index}"></button>`);
+      `<button aria-label="slider selector" class="dots__dot" data-slide="${index}"></button>`);
   });
 }
 

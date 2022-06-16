@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="author" content="Arjan den Os" />
-    <meta name="description" content="Welkom op mijn portfolio website. Ik ben een junior webdeveloper/student uit Hilversum." />
+    <meta name="description" content="Welcome to my portfolio website. I'm a junior web developer/student from Hilversum - Netherlands." />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="img/webdev-icon2.png" />
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
-    <title>Arjan den Os - Junior webdeveloper</title>
+    <title>Arjan den Os - Junior web developer</title>
   </head>
   <body>
     <header class="header">
@@ -24,13 +24,13 @@
             <a class="nav__link nav__link--underlined" href="#section--1">Projects</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link nav__link--underlined" href="#section--2">About me</a>
+            <a class="nav__link nav__link--underlined" href="#section--2">About</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link nav__link--underlined" href="#section--3">Contact info</a>
+            <a class="nav__link nav__link--underlined" href="#section--3">Contact</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link nav__link--btn" href="mailto:arjandenos@gmail.com">Send e-mail</a>
+            <a class="nav__link nav__link--btn" href="mailto:arjandenos@gmail.com">E-mail</a>
           </li>
         </ul>
       </nav>
@@ -41,12 +41,12 @@
           <span class="highlight">Junior-</span>
           <span class="highlight">webdeveloper</span>
         </h1>
-        <h4>Welcome to my portfolio</h4>
+        <h2>Welcome to my portfolio</h2>
         <button class="btn--text btn--scroll-to">continue&DownArrow;</button>
         <div class="composition header__img">
-          <img alt="photo 3" class="composition__photo composition__photo--p2" src="img/zelf3.jpg"/>
-          <img alt="photo 1" class="composition__photo composition__photo--p3" src="img/zelf4.png"/>
-          <img alt="photo 2" class="composition__photo composition__photo--p1" src="img/zelf2.jpg"/>
+          <img alt="photo 3" class="composition__photo composition__photo--p2" src="img/zelf3.webp" />
+          <img alt="photo 1" class="composition__photo composition__photo--p3" src="img/zelf4.webp" />
+          <img alt="photo 2" class="composition__photo composition__photo--p1" src="img/zelf2.webp" />
         </div>
       </div>
       <div class="cookie-message">
@@ -64,12 +64,12 @@
       <div class="slider">
         <div class="slide slide--1">
           <div class="project">
-            <h5 class="project__header">1. A calendar/agenda app</h5>
+            <h4 class="project__header">1. A calendar/agenda app</h4>
             <div class="project__overview">
-              <img src="img/calendar-day.png" alt="calendar day overview" />
+              <img src="img/calendar-day.webp" alt="calendar day overview" />
               <p class="project__text">
-                A calendar/agenda app with a year, month and day overview for 2022.<br/>
-                Sorts items on starting time <br/>
+                A calendar/agenda app with a year, month and day overview for 2022.<br />
+                Sorts items on starting time <br />
                 Items are stored in localStorage.
               </p>
             </div>
@@ -82,14 +82,14 @@
 
         <div class="slide slide--2">
           <div class="project">
-            <h5 class="project__header">2. A simple bankapp</h5>
+            <h4 class="project__header">2. A simple bankapp</h4>
             <div class="project__overview">
-              <img src="img/bankapp.png" alt="bankapp" />
+              <img src="img/bankapp.webp" alt="bankapp" />
               <p class="project__text">
-                A simple bankapp with a login.<br/>
-                Accounts in NL and US locale display.<br/>
-                Transfer money between accounts.<br/>
-                Sortbutton for the display.<br/>
+                A simple bankapp with a login.<br />
+                Accounts in NL and US locale display.<br />
+                Transfer money between accounts.<br />
+                Sortbutton for the display.<br />
                 Logout timer.
               </p>
             </div>
@@ -102,12 +102,12 @@
 
         <div class="slide slide--3">
           <div class="project">
-            <h5 class="project__header">3. A workout tracker/map</h5>
+            <h4 class="project__header">3. A workout tracker/map</h4>
             <div class="project__overview">
-              <img src="img/workoutmap.png" alt="workoutmap" />
+              <img src="img/workoutmap.webp" alt="workoutmap" />
               <p class="project__text">
-                A workout tracker/map with the Leaflet library and Openstreetmap.<br/>
-                Works with two classes, one for biking and one for running.<br/>
+                A workout tracker/map with the Leaflet library and Openstreetmap.<br />
+                Works with two classes, one for biking and one for running.<br />
                 Workouts are stored in localStorage.
               </p>
             </div>
@@ -117,8 +117,8 @@
             </div>
           </div>
         </div>
-        <img src="img/arrow-left.png" class="slider__btn slider__btn--left"> 
-        <img src="img/arrow-right.png" class="slider__btn slider__btn--right"> 
+        <button><img src="img/arrow-left.png" class="slider__btn slider__btn--left" alt="arrow-left"/></button>
+        <button><img src="img/arrow-right.png" class="slider__btn slider__btn--right" alt="arrow-right"/></button>
       </div>
       <div class="dots"></div>
     </section>
@@ -128,57 +128,57 @@
         <h2 class="section__description">About me</h2>
         <h3 class="section__header">Hello, I am Arjan den Os.</h3>
         <p class="section__information">
-          After a life-changing experience I have decided to go do something that seems interesting ánd fun to me: making websites!<br>
-          First I've learned the basics of correct HTML and had an introduction to CSS via <a href="https://www.freecodecamp.org/" target="_blank" class="section__information-link">FreeCodeCamp</a> and <a href="https://www.theodinproject.com/" target="_blank" class="section__information-link">The Odin Project</a>. Now I was able to make a (static) webpage, the most logical step seemed to be to learn how to design a webpage before producing it. I then watched a plethora of tutorials about design and how to work with Figma. Color-theory, contrast-ratios, alignment, visual hiarchy, typography... But I realised that wasn't where my major interest is.<br>
-          After finishing a Computer Science course from Harvard professor David J. Malan a couple puzzlepieces fell into place and a whole new world opened for me. After that I've decided to fully focus myself on (front-end) webdevelopment. At <a href="https://www.udemy.com/" target="_blank" class="section__information-link">Udemy</a> I first started with a 2-part course DOM-manipulation. Next I finished an advanced CSS/SASS course while at the same time I studied a most complete JavaScript course<br>
-          Everyday I'm getting more comfortable in working with the web trio HTML/CSS/JS. Evaluating the start of my developer journey:<br> 3 projects and this portfolio as demonstration of my current progress.<br><br>
-          My current tools:
+          After a life-changing experience, I've decided to go do something that seems exciting to me: making websites!<br />
+          First I've learned the basics of HTML and CSS via FreeCodeCamp and The Odin Project. Now I was able to make a web page, the most logical step seemed to learn how to design a webpage before producing it. I then focused for a while on studying color theory, contrast-ratios, alignment, visual hierarchy,
+          typography... etcetera. But I realized that wasn't where my major interest is.<br /><br />
+          After finishing a Computer Science course from Harvard professor David J. Malan, a whole new world opened up for me. I then decided to fully focus myself on (front-end) web development. Learning JavaScript before learning a framework seemed the most logical thing to do. At Udemy I first started with a 2-part course DOM-manipulation. Next I finished a most complete JavaScript course and an advanced CSS/SASS course. Every day I'm getting more comfortable in working with the web trio HTML/CSS/JS.
         </p>
       </div>
 
-      <div class="tools">
-        <div class="tools__tab-container">
-          <button class="tools__tab tools__tab--1 tools__tab--active" data-tab="1">JavaScript</button>
-          <button class="tools__tab tools__tab--2" data-tab="2">CSS</button>
-          <button class="tools__tab tools__tab--3" data-tab="3">HTML</button>
-        </div>
-        <div class="tools__content tools__content--1 tools__content--active">
-          <div class="tools__icon tools__icon--1">
-            <img src="img/js.png" alt="javascript logo">
+      <div class="tools__wrapper">
+        <div class="tools">
+          <div class="tools__tab-container">
+            <button class="tools__tab tools__tab--1 tools__tab--active" data-tab="1">JavaScript</button>
+            <button class="tools__tab tools__tab--2" data-tab="2">CSS</button>
+            <button class="tools__tab tools__tab--3" data-tab="3">HTML</button>
           </div>
-          <p>
-            In January 2022 I've started a most complete JavaScript course. From the basics of JS and the DOM to working with classes, API's and async behaviour. Developer tools, paradigms, modular building, how the single-threaded JS works "under the hood"; it all has been explained. Too much to list honestly. And everything in the modern ES6 ofcourse!
-          </p>
-        </div>
-
-        <div class="tools__content tools__content--2">
-          <div class="tools__icon tools__icon--2">
-            <img src="img/css.png" alt="css logo">
+          <div class="tools__content tools__content--1 tools__content--active">
+            <div class="tools__icon tools__icon--1">
+              <img src="img/js.png" alt="javascript logo" />
+            </div>
+            <p>
+              From the basics of JS and the DOM to working with classes, API's and async behaviour. Developer tools, paradigms, modular
+              building and how the single-threaded JS works "under the hood"; it all has been explained. Too much to list, honestly. And everything in the modern ES6 synthax of course!
+            </p>
           </div>
-          <p>
-            Via <a href="https://www.udemy.com/" target="_blank" class="section__information-link">Udemy</a> I have completed an advanced CSS/SASS course with flexbox and grid as basis, but also 'older' techniques have been explained. Trying to create fully responsive layout with as little media-query's as possible was an eye-opener and sometimes a challenging puzzle. Working with SASS and compiling with NPM was a good introduction to professional developing.
-          </p>
-        </div>
-        <div class="tools__content tools__content--3">
-          <div class="tools__icon tools__icon--3">
-            <img src="img/html.png" alt="html logo">
+          <div class="tools__content tools__content--2">
+            <div class="tools__icon tools__icon--2">
+              <img src="img/css.png" alt="css logo" />
+            </div>
+            <p>
+              Via Udemy I have completed an advanced CSS/SASS course with flexbox and grid as basis, but also 'older' techniques have been explained. Trying to create a fully responsive layout with as little media-query's as possible was an eye-opener and sometimes a challenging puzzle. Working with SASS and compiling with NPM was a good introduction to professional developing.
+            </p>
           </div>
-          <p>
-            I started with <a href="https://www.freecodecamp.org/" target="_blank" class="section__information-link">FreeCodeCamp</a> and
-            <a href="https://www.theodinproject.com/" target="_blank" class="section__information-link">The Odin Project</a> to learn the basics of HTML. Forms, images, links etcetera. Via <a href="https://www.a11yproject.com/" target="_blank" class="section__information-link">a11yproject</a> I eventually learned the importance of semantically correct HTML and how the accessibility-tree node works.
-          </p>
+          <div class="tools__content tools__content--3">
+            <div class="tools__icon tools__icon--3">
+              <img src="img/html.png" alt="html logo" />
+            </div>
+            <p>
+              I started to learn the basics of HTML via FreeCodeCamp and The Odin Project. Forms, images, links etcetera. Later I learned the importance of semantically correct HTML for SEO optimization and accessibility.
+            </p>
+          </div>
         </div>
       </div>
 
       <div class="section__title">
-        <h3 class="section__header">Now what?</h3>
+        <h3 class="section__header">Currently...</h3>
         <p class="section__information">
-          <strong>I'm currently learning the framework React</strong> <img class="section__information--icon" src='img/react.webp' alt="">.<br/>
-          In general I'm trying to get more comfortable in the use of SASS, NPM and Git.<br/>
-          Everyday I continue to broaden my knowledge of CSS and JS.<br/>
-          (Eventually I would like to start a course on Node.JS to learn more about the backend so I can practice projects on my Raspberry.<br>
-          But for the now the focus is 100% on front-end.)<br/>
-          <strong>I would like to start working in a professional environment as next step, to be able to learn from experienced developers.</strong>
+          <strong>...I'm learning the framework React</strong><img class="section__information--icon" src="img/react.webp" alt="" /> and I'm willing to learn other frameworks.<br/>
+          In general, I'm trying to get more comfortable in the use of NPM, Git and SASS.<br />
+          Every day I continue to broaden my knowledge of CSS and JS.<br />
+          <strong>I would like to start working in a professional environment as the next step, to be able to learn from experienced developers.</strong><br />
+          Eventually I would like to start a course on Node.JS, so can practice projects on my Raspberry Pi and learn more about the back-end.<br />
+          For now, the focus is 100% on front-end.
         </p>
       </div>
     </section>
@@ -186,14 +186,14 @@
     <section class="section section--contact" id="section--3">
       <div class="section__title">
         <h3 class="section__header">Info</h3>
-        <p class="section__information">Arjan den Os<br />arjandenos@gmail.com<br />06-16001123</p>
+        <p class="section__information contact">Arjan den Os<br />arjandenos@gmail.com<br />06-16001123</p>
       </div>
       <div class="contact">
-        <a href="mailto:arjandenos@gmail.com" class="contact__link"><img src="img/email.png" alt="e-mail"/></a>
-        <a href="https://wa.me/31616001123" target="_blank" class="contact__link"><img src="img/whatsapp.png" alt="whats app"/></a>
-        <a href="https://www.linkedin.com/in/arjan-den-os-7b7953118/" target="_blank" class="contact__link"><img src="img/linkedin.png" alt="linked in"/></a>
-        <a href="https://github.com/TzadO" target="_blank" class="contact__link"><img src="img/github.png" alt="git hub"/></a>
-        <a href="arjandenos_cv.pdf" target="_blank" class="contact__link"><img src="img/resume.png"/></a>
+        <a href="mailto:arjandenos@gmail.com" class="contact__link"><img src="img/email.png" alt="e-mail" /></a>
+        <a href="https://wa.me/31616001123" target="_blank" class="contact__link"><img src="img/whatsapp.png" alt="whats app" /></a>
+        <a href="https://www.linkedin.com/in/arjan-den-os-7b7953118/" target="_blank" class="contact__link"><img src="img/linkedin.png" alt="linked in" /></a>
+        <a href="https://github.com/TzadO" target="_blank" class="contact__link"><img src="img/github.png" alt="git hub" /></a>
+        <a href="arjandenos_cv.pdf" target="_blank" class="contact__link"><img src="img/resume.png" alt="resume" aria-label="resume" /></a>
       </div>
     </section>
   </body>
